@@ -149,3 +149,8 @@ for a in range(5):
     numero = int(input('Número'))
     soma += numero      #somadora
 print(f'Somatório: {soma}')
+
+# anotação de tipos de parametros 
+def somar(num1: float, num2:float ) -> float:       #recebe e devolve valores float (somente uma anotação, 
+    soma = num1 + num2                              #não obriga o usuário colocar o parametro indicado)
+    return soma
